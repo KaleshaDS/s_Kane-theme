@@ -1,0 +1,27 @@
+/*Mixins*/
+@mixin square($ancho, $relleno: $color)
+  width: $ancho
+  padding-bottom: $relleno 
+  margin-bottom: 5%
+
+@mixin linea($white)
+  border: 1px solid #FFF
+
+@mixin team($ach)
+  background-image: url("../img/team/1.jpg")
+  background-repeat: no-repeat
+  background-position: center center
+  height: 150px
+  width:  150px
+  position: relative
+  left: 55px
+  margin-top: 5em
+@mixin btn-gray($white, $dgray)
+  color: $white
+  background-color: $dgray
+@mixin texto($opinion)
+  font-size: $opinion
+  position: relative
+  left: 100px
+  margin: 3em 1em
+

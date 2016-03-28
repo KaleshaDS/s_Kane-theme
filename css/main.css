@@ -1,0 +1,373 @@
+/*variables para utilizar en letras */
+/*formas de paleta */
+/*hover */
+/*colores */
+/*fuentes y links */
+/*primer renglon */
+/*segundo renglon */
+/*tercer renglon */
+/*cuarto renglon */
+/*quinto renglon */
+/*seccion */
+/*imagenes team */
+/*boton */
+/*Mixins */
+/*barra de navegacion */
+.navbar {
+  background-color: #27AD60;
+  border: #27AD60; }
+
+.navbar-nav li {
+  position: relative;
+  top: 1em;
+  color: #FFFFFF; }
+  .navbar-nav li:hover {
+    color: #27AD60; }
+
+.wtf {
+  position: relative;
+  top: 5px;
+  max-width: 70%;
+  margin: 20px; }
+
+/*primera seccion */
+#natura {
+  background-image: url("../img/carousel-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom;
+  height: 400px;
+  z-index: -1;
+  position: relative;
+  bottom: 2em;
+  color: #FFFFFF;
+  padding-bottom: 50em; }
+
+/*segunda seccion */
+/*primer renglon */
+.colorp1 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #69D2E7; }
+
+.colorp2 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #A7DBDB; }
+
+.colorp3 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #E0E4CC; }
+
+.colorp4 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #F38630; }
+
+.colorp5 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #FA6900; }
+
+/*segundo renglon */
+.colors1 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #E94C6F; }
+
+.colors2 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #542733; }
+
+.colors3 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #5A6A62; }
+
+.colors4 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #C6D5CD; }
+
+.colors5 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #FDF200; }
+
+/*tercer renglon */
+.colort1 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #DB3340; }
+
+.colort2 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #E8B71A; }
+
+.colort3 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #F7EAC8; }
+
+.colort4 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #1FDA9A; }
+
+.colort5 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #28ABE3; }
+
+/*cuarto renglon */
+.colorc1 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #588C73; }
+
+.colorc2 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #F2E394; }
+
+.colorc3 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #F2AE72; }
+
+.colorc4 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #D96459; }
+
+.colorc5 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #8C4646; }
+
+/*quinto renglon */
+.colorq1 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #D0C91F; }
+
+.colorq2 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #85C4B9; }
+
+.colorq3 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #008BBA; }
+
+.colorq4 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #DF514C; }
+
+.colorq5 {
+  width: 100%;
+  padding-bottom: 8em;
+  margin-bottom: 5%;
+  background-color: #DC403B; }
+
+/*tercera seccion */
+#blue {
+  background-color: #354658;
+  color: #FFFFFF;
+  padding-bottom: 200px; }
+
+img {
+  width: 70%;
+  position: relative;
+  top: 5em; }
+
+.progre {
+  position: relative;
+  top: 5em; }
+
+.wline {
+  border: 1px solid #FFF; }
+
+/*cuarta seccion */
+#green {
+  background-color: #27AD60;
+  color: #FFFFFF;
+  padding-bottom: 10em; }
+
+.mouse:hover {
+  background-color: #2A7257;
+  color: #FA6900; }
+
+.bg-img {
+  background-image: url("../img/icon-bg.png");
+  background-color: #2C3E50;
+  background-position: center;
+  width: 60%;
+  height: 150px;
+  z-index: -1; }
+
+.bg-img:hover {
+  background-image: url("../img/icon-bg.png");
+  background-position: center;
+  background-color: #FA6900;
+  transform: rotate(-10deg); }
+
+.imgd {
+  width: 50%;
+  margin-bottom: 10em;
+  padding: 10px;
+  position: relative;
+  top: 3em; }
+
+.imgd:hover {
+  transform: rotate(-120deg); }
+
+.move {
+  position: relative;
+  left: 60px; }
+
+.btn-g {
+  color: #FFFFFF;
+  background-color: #4D484D;
+  left: 500px;
+  margin-bottom: 200px;
+  float: center;
+  position: relative; }
+
+.team {
+  background-image: url("../img/team/1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  left: 55px;
+  margin-top: 5em; }
+
+.btn-table {
+  color: #FFFFFF;
+  background-color: #4D484D; }
+
+/*quinta seccion */
+.texto {
+  font-size: 1.5em;
+  position: relative;
+  left: 100px;
+  margin: 3em 1em;
+  color: #BDBDBD; }
+
+.client {
+  position: relative;
+  left: 400px;
+  margin: 0 5em;
+  font-size: 1.5em; }
+
+/*tablas */
+.marco {
+  border: 1px solid #27AD60; }
+  .marco div {
+    border-bottom: 1px solid #27AD60;
+    padding: 10px; }
+
+.marco:hover {
+  border: 1px solid #FA6900;
+  position: relative;
+  top: 10px;
+  background-color: #FA6900;
+  opacity: 0.3; }
+  .marco:hover div {
+    border-bottom: 1px solid #FA6900;
+    position: relative;
+    top: 10px; }
+    .marco:hover div span {
+      padding: 20px; }
+
+#green_t {
+  background-color: #27AD60; }
+
+/*sexta seccion */
+.formulario {
+  margin: 5em 2em;
+  position: relative;
+  left: 200px; }
+
+.white {
+  background-color: #FFFFFF;
+  color: #354658; }
+
+/*septima seccion */
+.bg-trigo {
+  background-image: url("../img/img-divider-img.jpg");
+  height: 30em;
+  background-position: center top;
+  background-size: cover; }
+
+.bg-trigo1 {
+  background-image: url("../img/img-divider-img.jpg");
+  height: 10em;
+  background-position: center;
+  background-size: cover; }
+
+.iconos {
+  position: relative;
+  top: 250px;
+  font-size: 17px;
+  color: #FFFFFF; }
+
+.iconos:hover {
+  color: #27AD60; }
+
+/*clases para todo xD */
+.title {
+  font-size: 4em;
+  margin-top: 2em; }
+
+.subtitle {
+  font-size: 2em; }
+
+hr {
+  border: 0.1em solid #000000;
+  margin: 3em 400px; }
+
+.text-black {
+  color: #000000; }
+
+.text-gray {
+  color: #BDBDBD; }
+
+.text-white {
+  color: #FFFFFF; }
+
+i {
+  margin: 0 0.5em; }
+
+/*# sourceMappingURL=main.css.map */

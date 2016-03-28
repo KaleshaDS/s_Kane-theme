@@ -1,0 +1,246 @@
+@import _var
+@import _mixin
+/*barra de navegacion*/
+.navbar 
+  background-color: #27AD60
+  border: #27AD60
+.navbar-nav
+  li 
+    position: relative
+    top: 1em
+    color: $white
+    &:hover
+      color: $green
+.wtf
+  position: relative
+  top: 5px
+  max-width: 70%
+  margin: 20px
+
+/*primera seccion*/
+#natura 
+  background-image: url("../img/carousel-bg.jpg")
+  background-repeat: no-repeat
+  background-attachment: fixed
+  background-position: center bottom
+  height: 400px
+  z-index: -1
+  position: relative
+  bottom: 2em
+  color: $white
+  padding-bottom: 50em 
+
+/*segunda seccion*/
+/*primer renglon*/
+.colorp1
+  @include square($ancho, $relleno)
+  background-color: $prc1
+.colorp2
+  @include square($ancho, $relleno)
+  background-color: $prc2
+.colorp3
+  @include square($ancho, $relleno)
+  background-color: $prc3
+.colorp4
+  @include square($ancho, $relleno)
+  background-color: $prc4
+.colorp5
+  @include square($ancho, $relleno)
+  background-color: $prc5
+/*segundo renglon*/
+.colors1
+  @include square($ancho, $relleno)
+  background-color: $src1
+.colors2
+  @include square($ancho, $relleno)
+  background-color: $src2
+.colors3
+  @include square($ancho, $relleno)
+  background-color: $src3
+.colors4
+  @include square($ancho, $relleno)
+  background-color: $src4
+.colors5
+  @include square($ancho, $relleno)
+  background-color: $src5
+/*tercer renglon*/
+.colort1
+  @include square($ancho, $relleno)
+  background-color: $trc1
+.colort2
+  @include square($ancho, $relleno)
+  background-color: $trc2
+.colort3
+  @include square($ancho, $relleno)
+  background-color: $trc3
+.colort4
+  @include square($ancho, $relleno)
+  background-color: $trc4
+.colort5
+  @include square($ancho, $relleno)
+  background-color: $trc5
+/*cuarto renglon*/
+.colorc1
+  @include square($ancho, $relleno)
+  background-color: $crc1
+.colorc2
+  @include square($ancho, $relleno)
+  background-color: $crc2
+.colorc3
+  @include square($ancho, $relleno)
+  background-color: $crc3
+.colorc4
+  @include square($ancho, $relleno)
+  background-color: $crc4
+.colorc5
+  @include square($ancho, $relleno)
+  background-color: $crc5
+/*quinto renglon*/
+.colorq1
+  @include square($ancho, $relleno)
+  background-color: $qrc1
+.colorq2
+  @include square($ancho, $relleno)
+  background-color: $qrc2
+.colorq3
+  @include square($ancho, $relleno)
+  background-color: $qrc3
+.colorq4
+  @include square($ancho, $relleno)
+  background-color: $qrc4
+.colorq5
+  @include square($ancho, $relleno)
+  background-color: $qrc5
+
+/*tercera seccion*/
+#blue
+  background-color: $blue
+  color: $white
+  padding-bottom: 200px
+img
+  width: 70%
+  position: relative
+  top: 5em
+.progre
+  position: relative
+  top: 5em
+.wline
+  @include linea($white)
+
+/*cuarta seccion*/
+#green
+  background-color: $green
+  color: $white
+  padding-bottom: 10em
+.mouse:hover
+  background-color: #2A7257
+  color: $orange
+.bg-img
+  background-image: url("../img/icon-bg.png")
+  background-color: #2C3E50
+  background-position: center
+  width: 60%
+  height: 150px
+  z-index: -1
+.bg-img:hover
+  background-image: url("../img/icon-bg.png")
+  background-position: center
+  background-color: $orange
+  transform: rotate(-10deg)
+.imgd
+  width: 50%
+  margin-bottom: 10em
+  padding: 10px
+  position: relative
+  top: 3em
+.imgd:hover
+  transform: rotate(-120deg)
+.move
+  position: relative
+  left: 60px
+.btn-g
+  @include btn-gray($white, $dgray)
+  left: 500px
+  margin-bottom: 200px
+  float: center 
+  position: relative
+.team
+  @include team($ach)
+.btn-table
+  @include btn-gray($white, $dgray)
+
+/*quinta seccion*/
+.texto
+  @include texto($opinion)
+  color: $gray
+.client
+  position: relative
+  left: 400px
+  margin: 0 5em
+  font-size: 1.5em
+/*tablas*/
+.marco
+  border: 1px solid $green
+  div
+    border-bottom: 1px solid $green
+    padding: 10px
+.marco:hover
+  border: 1px solid $orange
+  position: relative
+  top: 10px
+  background-color: $orange
+  opacity: 0.3  
+  div
+    border-bottom: 1px solid $orange
+    position: relative
+    top: 10px
+    span
+      padding: 20px
+#green_t
+  background-color: $green
+/*sexta seccion*/
+.formulario
+  margin: 5em 2em
+  position: relative
+  left: 200px
+.white
+  background-color: $white
+  color: $blue
+
+/*septima seccion*/
+.bg-trigo
+  background-image: url("../img/img-divider-img.jpg")  
+  height: 30em
+  background-position: center top
+  background-size: cover
+.bg-trigo1 
+  background-image: url("../img/img-divider-img.jpg")  
+  height: 10em
+  background-position: center 
+  background-size: cover
+.iconos 
+  position: relative 
+  top: 250px
+  font-size: 17px
+  color: $white
+.iconos:hover
+  color: $green
+
+
+/*clases para todo xD*/
+.title 
+  font-size: $title
+  margin-top: 2em
+.subtitle 
+  font-size: $subtitle
+hr 
+  border: 0.1em solid #000000
+  margin: 3em 400px
+.text-black
+  color: #000000
+.text-gray
+  color: $gray
+.text-white
+  color: $white
+i
+  margin: 0 0.5em
